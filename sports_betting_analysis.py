@@ -16,11 +16,8 @@
     7. Kelly Criterion Position Sizing
     8. Backtest & Validation Framework
 
-  Authors: Group 2 — Godfred A. Koduah, Charles Challender, Minh Do
-  Date:    April 2026
-  Course:  Quantitative Finance — Florida State University
-===========================================================================
-"""
+
+=============================================================== """
 
 import numpy as np
 import matplotlib
@@ -34,7 +31,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # ── Output directory ──
-OUT = "/home/claude/project_outputs"
+OUT = "./project_outputs"
 os.makedirs(OUT, exist_ok=True)
 
 # ═══════════════════════════════════════════════════════════════════
